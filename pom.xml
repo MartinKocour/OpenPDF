@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.librepdf</groupId>
+    <groupId>com.github.MartinKocour</groupId>
     <artifactId>openpdf-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0.2-SNAPSHOT</version>
@@ -31,19 +31,19 @@
     </modules>
 
     <name>OpenPDF - Free and Open PDF</name>
-    <url>https://github.com/LibrePDF/OpenPDF</url>
+    <url>https://github.com/MartinKocour/OpenPDF</url>
     <description>Open and Free PDF library.</description>
     <scm>
-        <url>scm:git:https://github.com/LibrePDF/OpenPDF</url>
-        <connection>scm:git:https://github.com/LibrePDF/OpenPDF</connection>
-        <developerConnection>scm:git:https://github.com/LibrePDF/OpenPDF</developerConnection>
+        <url>scm:git:https://github.com/MartinKocour/OpenPDF</url>
+        <connection>scm:git:https://github.com/MartinKocour/OpenPDF</connection>
+        <developerConnection>scm:git:https://github.com/MartinKocour/OpenPDF</developerConnection>
     </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.test.failure.ignore>false</maven.test.failure.ignore>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
         <maven.source.version>2.4</maven.source.version>
         <maven.javadoc.plugin.version>2.10.1</maven.javadoc.plugin.version>
         <maven.clean.plugin.version>2.6.1</maven.clean.plugin.version>
